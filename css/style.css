@@ -56,3 +56,28 @@ body {
   color: white;
   font-weight: normal;
 }
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+@media (max-width:375px) {
+  .link-icons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .link-icon {
+    margin-right: 0;
+  }
+}
+
+@media (max-width:768px) {
+  main {
+    min-height: auto;
+  }
+
+  .content {
+    padding: 20px 4.5vw;
+  }
+}
